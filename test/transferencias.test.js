@@ -31,12 +31,7 @@ describe('Transfêrencias', () => {
                 .post('/transferencias')
                 .set('Content-Type', 'application/json')
                 .set('Authorization', `Bearer ${token}`)
-                .send({
-                        contaOrigem: 1,
-                        contaDestino: 2,
-                        valor: 7,
-                        token: ""
-                })
+                .send(bodyTransferencias)
             expect(response.status).to.equal(422)
             })
     })
