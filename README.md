@@ -4,7 +4,7 @@ Este projeto contém uma suíte de testes automatizados para a API REST disponí
 
 ## Objetivo
 
-Garantir a qualidade e o correto funcionamento dos endpoints da API REST do projeto `banco-api`, através de testes automatizados de integração.
+Contribuir com a qualidade e o correto funcionamento dos endpoints da API REST do projeto `banco-api`, através de testes automatizados de integração.
 
 ## Stack utilizada
 
